@@ -1,0 +1,221 @@
+/* General container for the registration form */
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f0c030;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.registration-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Input field styles */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.form-button {
+  width: 100%;
+  background-color: #0066ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056d1;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .registration-container {
+    width: 90%;
+    padding: 15px;
+  }
+}
+
+
+/* General container for the job post form */
+.job-post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f0c030;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.job-post-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Input field styles */
+.job-post-container input,
+.job-post-container select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Placeholder text color */
+.job-post-container input::placeholder,
+.job-post-container select::placeholder {
+  color: #999;
+}
+
+/* Button styling */
+.job-post-container button {
+  width: 100%;
+  background-color: #0066ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.job-post-container button:hover {
+  background-color: #0056d1;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .job-post-container {
+    width: 90%;
+    padding: 15px;
+  }
+}
+
+
+/* Container styling for the verification form */
+.verification-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e0e0e0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.verification-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* OTP input field styles */
+.verification-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Verify button styling */
+.verification-container button {
+  width: 100%;
+  background-color: #0066ff;
+  color: white;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.verification-container button:hover {
+  background-color: #0056d1;
+}
+
+/* Additional styling for verified states (optional) */
+.verified {
+  border: 2px solid green;
+}
+
+.not-verified {
+  border: 2px solid red;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .verification-container {
+    width: 90%;
+    padding: 15px;
+  }
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.head{
+  padding: 43px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-data{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
